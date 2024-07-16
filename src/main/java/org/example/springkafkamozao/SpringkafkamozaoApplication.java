@@ -21,15 +21,4 @@ public class SpringkafkamozaoApplication {
         SpringApplication.run(SpringkafkamozaoApplication.class, args);
     }
 
-//    @Bean
-//    public CommonErrorHandler errorHandler(KafkaOperations<Object, Object> template) {
-//        return new DefaultErrorHandler(
-//                new DeadLetterPublishingRecoverer(template), new FixedBackOff(1000L, 2));
-//    }
-//
-//    @Bean
-//    public RecordMessageConverter converter() {
-//        return new JsonMessageConverter();
-//    }
-
 }

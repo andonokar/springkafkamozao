@@ -6,8 +6,8 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api")
-public class ProducerController {
+@RequestMapping("/api/kafka")
+public class KafkaController {
     @Autowired
     private KafkaTemplate<Integer, MyDto> kafkaTemplate;
 
